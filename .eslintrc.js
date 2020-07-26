@@ -6,6 +6,9 @@ module.exports = {
 		'plugin:prettier/recommended',
 		'plugin:cypress/recommended'
 	],
+	plugins: [
+		"jsx-a11y"
+	],
 	parserOptions: {
 		ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
 		sourceType: 'module' // Allows for the use of imports
